@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  kafka-tool:
+    image: tool/kafka-tool:0.1
+    volumes:
+      - ~/.aws:/root/.aws
+    command: ["tail", "-f", "/dev/null"] # To keep the container running
+    environment:
+      - BS=b-3.dl-msk-cluster-staging.ha93zr.c9.kafka.eu-west-1.amazonaws.com:9098,b-1.dl-msk-cluster-staging.ha93zr.c9.kafka.eu-west-1.amazonaws.com:9098,b-2.dl-msk-cluster-staging.ha93zr.c9.kafka.eu-west-1.amazonaws.com:9098
+      - AWS_DEFAULT_REGION=eu-west-1
