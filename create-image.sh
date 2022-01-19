@@ -1,0 +1,1 @@
+docker build --rm --compress -t tool/kafka-tool:0.1 ./local
