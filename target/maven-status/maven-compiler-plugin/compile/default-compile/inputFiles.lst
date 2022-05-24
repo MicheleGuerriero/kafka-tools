@@ -1,3 +1,5 @@
-/Users/vitoalbano/Git/Kafka/src/main/java/it/prima/ProducerClientTest.java
-/Users/vitoalbano/Git/Kafka/src/main/java/it/prima/Admin.java
-/Users/vitoalbano/Git/Kafka/src/main/java/it/prima/ConsumerClientTest.java
+/Users/micheleguerriero/Documents/projects/kafka-tools/src/main/java/it/prima/ConsumerConfluentClientTest.java
+/Users/micheleguerriero/Documents/projects/kafka-tools/src/main/java/it/prima/ProducerConfluentClientTest.java
+/Users/micheleguerriero/Documents/projects/kafka-tools/src/main/java/it/prima/ProducerClientTest.java
+/Users/micheleguerriero/Documents/projects/kafka-tools/src/main/java/it/prima/ConsumerClientTest.java
+/Users/micheleguerriero/Documents/projects/kafka-tools/src/main/java/it/prima/Admin.java

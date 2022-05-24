@@ -17,7 +17,12 @@
     <name>Kafka</name>
     <description>This is the it.prima:Kafka plugin for Atlassian Confluence.</description>
     <packaging>jar</packaging>
-
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>https://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>software.amazon.msk</groupId>
@@ -28,6 +33,16 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.confluent</groupId>
+            <artifactId>kafka-json-schema-serializer</artifactId>
+            <version>5.5.7</version>
+        </dependency>
+        <dependency>
+            <groupId>io.confluent</groupId>
+            <artifactId>kafka-avro-serializer</artifactId>
+            <version>5.5.7</version>
         </dependency>
     </dependencies>
 

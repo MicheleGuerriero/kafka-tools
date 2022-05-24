@@ -1,4 +1,7 @@
-it/prima/ConsumerClientTest.class
+it/prima/ProducerConfluentClientTest$1.class
 it/prima/ProducerClientTest$1.class
-it/prima/ProducerClientTest.class
 it/prima/Admin.class
+it/prima/ProducerConfluentClientTest.class
+it/prima/ConsumerClientTest.class
+it/prima/ConsumerConfluentClientTest.class
+it/prima/ProducerClientTest.class
